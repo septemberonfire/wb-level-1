@@ -3,10 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
   <title>Document</title>
 </head>
 <body>
+  <div class="geocoding">
+    <label for="geo">Выбрать адрес</label>
+    <div class="geocoding_inputWrap">
+      <input type="text" class="geocoding_input" name="geo" placeholder="Я ищу...">
+      <button class="geocoding_btn">
+        >
+      </button>
+    </div>
+    <div class="geocoding_suggestList">
+      
+    </div>
+  </div>
+  <div id="myElement"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
   <script type="module" src="./index.js"></script>
+  <script src="./scripts/22.documentWrite.js"></script>
 </body>
 </html>

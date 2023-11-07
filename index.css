@@ -1,0 +1,42 @@
+.geocoding {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 4px;
+  float: right;
+}
+
+.geocoding_input {
+  border: none;
+  background-color: rgb(174, 255, 228);
+  border-radius: 4px;
+  padding: 4px;
+  width: 100%;
+}
+
+.geocoding_input:focus + .geocoding_input {
+  border: none;
+}
+
+.suggest-item {
+  background-color: rgb(236, 235, 235);
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.geocoding_inputWrap {
+  background-color: aquamarine;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.geocoding_btn {
+  border: none;
+  background-color: aliceblue;
+  cursor: pointer;
+}
