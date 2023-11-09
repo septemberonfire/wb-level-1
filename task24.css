@@ -1,0 +1,55 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table_header {
+  display: flex;
+  width: 100%;
+}
+
+.table_body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.col {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 24px;
+  width: calc(100% / 7);
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
+.col-head {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.table_row {
+  display: flex;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination_list {
+  display: flex;
+  gap: 24px;
+}
+
+.pagination_item {
+  cursor: pointer;
+}
+
+.pagination_item-active {
+  border-bottom: 1px solid black;
+}
