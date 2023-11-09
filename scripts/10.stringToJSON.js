@@ -46,7 +46,7 @@ const jsonString = '"name":"John","age":30,"city":"New York"';
 
 try {
   const json = stringToJson(jsonString);
-  console.log(json); // { name: 'John', age: 30, city: 'New York' }
+  console.log(json); // Вернёт объект { name: 'John', age: 30, city: 'New York' }
 } catch (error) {
   console.error(error.message);
 }
